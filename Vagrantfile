@@ -23,7 +23,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = ["cookbooks"]
     chef.roles_path = ["roles"]
-    chef.add_role "passenger_nginx"
+    chef.add_role "nginx_passenger"
     chef.add_recipe 'apt' # or 'yum', depend on your machine
     chef.add_recipe 'build-essential'
     chef.add_recipe 'ruby_build::default'
