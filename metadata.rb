@@ -22,4 +22,5 @@ depends "chef_gem", "0.1.0"
 
 #In Berksfile 
 depends "ruby_build"
-depends "rvm", "0.9.1" 
+#depends "rvm", "0.9.1" 
+depends "rvm"
