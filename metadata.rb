@@ -24,3 +24,4 @@ depends "chef_gem", "0.1.0"
 depends "ruby_build"
 #depends "rvm", "0.9.1" 
 depends "rvm"
+depends 'iptables', '= 1.1.0'
